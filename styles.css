@@ -1,0 +1,66 @@
+*{
+    background-color: black;
+    color: seashell;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.9;
+    /* border: 3px solid red; */
+    
+}
+
+a{
+text-decoration: underline;
+}
+
+
+.containerHeader{
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 69px;
+/* border: 3px solid red; */
+    
+
+}
+
+#submenu{
+    margin-left: 25px;
+}
+
+.mission{
+    
+    /* border: 3px solid blue; */
+    background-image: url("./images/img-mission-background.jpg");
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.mission-statement{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    
+}
+
+.sub-monthTea{
+    text-align: center;
+}
+
+.teaType{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box{
+    height: 200px;
+    width: 300px;
+    border: 3px solid blue;
+}
+
+#boxOne{
+        background-image: url("./images/img-mission-background.jpg");
+            background-size: cover;
+}
