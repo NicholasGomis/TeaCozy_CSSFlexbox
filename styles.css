@@ -60,7 +60,55 @@ height: 69px;
     border: 3px solid blue;
 }
 
+.boxlocation{
+height: 250px;
+width: 300px;
+border: 3px solid yellow;
+
+
+
+}
+
+
 #boxOne{
         background-image: url("./images/img-mission-background.jpg");
             background-size: cover;
+}
+#boxTwo {
+    background-image: url("./images/img-spiced-rum.jpg");
+    background-size: cover;
+}
+#boxThree {
+    background-image: url("./images/img-donut.jpg");
+    background-size: cover;
+}
+#boxFour {
+    background-image: url("./images/img-myrtle-ave.jpg");
+    background-size: cover;
+}
+#boxSixth {
+    background-image: url("./images/img-bedford-bizarre.jpg");
+    background-size: cover;
+}
+
+.locations{
+    margin-top: 100px;
+    background-image: url("./images/img-locations-background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 800px;
+
+}
+
+.sub-locations{
+display: flex;
+width: auto;
+    
+
+}
+
+
+.contact{
+    text-align: center;
 }
